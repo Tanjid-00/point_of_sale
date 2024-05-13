@@ -29,10 +29,10 @@ const App = () => {
                             <Header />
                             <div className={style.pageContent}>
                                 <Routes>
-                                    <Route path="/pos_management" element={<Dashboard />} />
+                                    <Route path="/" element={<Dashboard />} />
                                     <Route path="/products" element={<Products />} />
                                     <Route path="/singleProduct/:id" element={<SingleProduct />} />
-                                    <Route path="/pos" element={<Pos />} />
+                                    <Route path="/point_of_sale" element={<Pos />} />
                                     <Route path="/cart" element={<Cart />} />
                                     <Route path="/*" element={<Error />} />
                                 </Routes>

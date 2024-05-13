@@ -30,9 +30,9 @@ const Home = ({ children }) => {
         setIsToggle(!isToggle);
     };
     const Links = [
-        { name: 'dashboard', link: '/pos_management', icon: <FiGrid /> },
+        { name: 'dashboard', link: '/', icon: <FiGrid /> },
         { name: 'products', link: '/products', icon: <FiBox /> },
-        { name: 'pos', link: '/pos', icon: <FiShoppingBag /> },
+        { name: 'pos', link: '/point_of_sale', icon: <FiShoppingBag /> },
         { name: 'cart', link: '/cart', icon: <FiShoppingCart /> },
         { name: 'payment', link: '/payment', icon: <FiCreditCard /> },
         { name: 'order', link: '/order', icon: <FiClipboard /> },
