@@ -23,7 +23,7 @@ import { CartProvider } from './hooks/CartContext';
 const App = () => {
     return (
         <div className={style.container}>
-            <BrowserRouter>
+            {/* <BrowserRouter>
                 <ProductContext>
                     <CartProvider>
                         <Home>
@@ -39,11 +39,11 @@ const App = () => {
                                     <Route path="/*" element={<Error />} />
                                 </Routes>
                             </div>
-                            {/* <Footer /> */}
                         </Home>
                     </CartProvider>
                 </ProductContext>
-            </BrowserRouter>
+            </BrowserRouter> */}
+            <h1>Hello there</h1>
         </div>
     );
 };
