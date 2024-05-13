@@ -1,4 +1,5 @@
 /* eslint-disable */
+// commit-3
 
 import { React, useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
@@ -29,10 +30,11 @@ const App = () => {
                             <Header />
                             <div className={style.pageContent}>
                                 <Routes>
+                                    <Route path="/point_of_sale" element={<Dashboard />} />
                                     <Route path="/" element={<Dashboard />} />
                                     <Route path="/products" element={<Products />} />
                                     <Route path="/singleProduct/:id" element={<SingleProduct />} />
-                                    <Route path="/point_of_sale" element={<Pos />} />
+                                    <Route path="/pos" element={<Pos />} />
                                     <Route path="/cart" element={<Cart />} />
                                     <Route path="/*" element={<Error />} />
                                 </Routes>
