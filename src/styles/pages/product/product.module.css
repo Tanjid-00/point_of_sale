@@ -1,0 +1,124 @@
+#container {
+    padding: 10px;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background: white;
+    border: 1px solid var(--font);
+}
+.tbody tr {
+    cursor: pointer;
+}
+.tbody tr:hover {
+    background: var(--hover);
+}
+.sl {
+    border-right: 1px solid var(--font);
+    background: var(--hover);
+}
+.thead {
+    background: var(--two);
+    color: white;
+    font-size: small;
+    border: 1px solid var(--font);
+}
+.stock {
+    display: none;
+}
+.thead tr th {
+    padding: 5px;
+}
+.tbody tr td {
+    padding: 5px 0;
+    border-bottom: 1px solid var(--font);
+}
+#eye {
+    width: 23px;
+}
+
+.searchCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+.actionBar {
+    min-width: 80px;
+
+    border-left: 1px solid var(--font);
+}
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.action .icon {
+    font-size: 18px;
+}
+.action .icon:hover {
+    filter: brightness(70%);
+}
+.action #eye {
+    color: #1b9558;
+}
+.action #add {
+    color: #2c93f9;
+}
+.action #delete {
+    color: #cb2b2b;
+    display: none;
+}
+
+.searchCart .cart {
+    color: var(--font);
+    background: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+}
+.cartIcon {
+    width: 25px;
+    height: 25px;
+}
+.itemsQuantity {
+    min-width: 25px;
+    min-height: 25px;
+    top: 0;
+    right: 0;
+
+    padding: 5px;
+    font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+    #container {
+        padding: 20px;
+    }
+    .cart {
+        width: 150px;
+    }
+    .cartIcon {
+        width: 30px;
+        height: 30px;
+    }
+    .action #delete {
+        display: block;
+    }
+    .actionBar {
+        width: 150px;
+    }
+}

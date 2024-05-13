@@ -1,0 +1,45 @@
+.actionBar {
+    min-width: 80px;
+
+    border-left: 1px solid var(--font);
+}
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.action .icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 10px;
+}
+.action .icon:hover {
+    filter: brightness(70%);
+}
+.action #eye {
+    color: #1b9558;
+}
+.action #add {
+    color: #2c93f9;
+}
+.action #delete {
+    color: #cb2b2b;
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    #container {
+        padding: 20px;
+    }
+    .searchCart .cart {
+        width: 150px;
+        padding: 10px;
+    }
+    .action #delete {
+        display: block;
+    }
+    .actionBar {
+        width: 150px;
+    }
+}

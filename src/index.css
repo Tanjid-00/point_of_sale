@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    scrollbar-width: thin;
+}
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --font: #343434;
+    --hover: #ff474729;
+    --one: #00a1fe;
+    --two: #ff5d5d;
+}
+
+/* ::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8c8c8c9b;
+    border-radius: 10px;
+} */
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.inpField {
+    max-width: 600px;
+}
+.inp {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+    border-left: 40px solid var(--two);
+    font-size: large;
+    color: var(--font);
+}
+
+@media screen and (min-width: 992px) {
+    .inp {
+        padding: 10px;
+    }
+    .icon {
+        top: 10px;
+    }
+}

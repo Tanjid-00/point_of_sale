@@ -1,0 +1,10 @@
+.container {
+    overflow-x: hidden;
+}
+
+.pageContent {
+    background: #eff3f7;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}

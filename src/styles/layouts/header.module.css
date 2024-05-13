@@ -1,0 +1,81 @@
+.pageHeader {
+    display: none;
+    position: relative;
+}
+.iconBox {
+    padding: 10px;
+    display: flex;
+    border-radius: 7px;
+    background: var(--two);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 15px var(--two);
+}
+#plusIcon {
+    border-radius: 5px;
+    font-weight: bold;
+    background: white;
+}
+
+.right .profileIcon {
+    width: 30px;
+    cursor: pointer;
+}
+.iconBox:hover #plusIcon {
+    background: var(--two);
+    color: white;
+}
+.iconBox:hover {
+    background: white;
+    border: 1px solid var(--two);
+}
+.right .card {
+    width: 300px;
+    position: absolute;
+    box-shadow: 0 0 10px gray;
+    top: 60px;
+    right: 30px;
+    background: white;
+    outline: 20px solid line;
+    border-right: 20px solid var(--hover);
+}
+.right .profilePic {
+    width: 100px;
+    border-radius: 100%;
+}
+.up {
+    text-align: center;
+    line-height: 40px;
+    padding: 20px;
+}
+
+.down li {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+.down li:hover {
+    background: var(--hover);
+    cursor: pointer;
+}
+.down li p {
+    padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+    .pageHeader {
+        background: white;
+        height: 60px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .pageHeader .icons {
+        color: var(--font);
+    }
+
+    .icons {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}

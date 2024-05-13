@@ -1,0 +1,89 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px 0;
+}
+.box {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.box:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#one {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 20px #ff0000;
+}
+#two {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 50px #988900;
+}
+#three {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 20px #0055ff;
+}
+#four {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 20px #d000ff;
+}
+#five {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 20px #008200;
+}
+#six {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 20px #007670;
+}
+#seven {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 20px #90004d;
+}
+#eight {
+    background: linear-gradient(to right, #a3a3a3, white);
+    box-shadow: inset 0 0 20px #008d15;
+}
+
+.titleBox {
+    line-height: 30px;
+    text-align: right;
+}
+.icon {
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px black;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #ffffffe5;
+}
+.amount {
+    white-space: noWrap;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+    }
+}

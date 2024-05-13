@@ -1,0 +1,89 @@
+#container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: start;
+    gap: 30px;
+}
+.gallery {
+    padding: 10px;
+}
+
+.img {
+    max-width: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.title .brand {
+    background: #2e8b88;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.icon {
+    color: var(--two);
+}
+
+.title .category {
+    background: crimson;
+
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.right {
+    display: grid;
+    gap: 20px;
+}
+.discount {
+    color: crimson;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: line-through;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+}
+.buttons button {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+.buttons > button:first-of-type {
+    background: var(--two);
+}
+.buttons > button:nth-child(2) {
+    background: var(--three);
+}
+.buttons button:hover {
+    filter: grayscale(50%);
+}
+@media screen and (min-width: 768px) {
+    #container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+    .buttons button {
+        width: 80%;
+    }
+}
