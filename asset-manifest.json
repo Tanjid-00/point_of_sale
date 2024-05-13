@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pos_management/static/css/main.b59185b1.css",
-    "main.js": "/pos_management/static/js/main.ec448294.js",
-    "static/media/logo.png": "/pos_management/static/media/logo.ba721a794b2121de4f2d.png",
-    "static/media/shopping-cart.png": "/pos_management/static/media/shopping-cart.84f0cabc82e607c299b3.png",
-    "static/media/info.png": "/pos_management/static/media/info.48916f8f0c4a1111b52f.png",
-    "static/media/profile.jpg": "/pos_management/static/media/profile.7acfeda75ed37a02b1f6.jpg",
-    "static/media/delete.png": "/pos_management/static/media/delete.8bc79496f3a55698a136.png",
-    "index.html": "/pos_management/index.html",
-    "main.b59185b1.css.map": "/pos_management/static/css/main.b59185b1.css.map",
-    "main.ec448294.js.map": "/pos_management/static/js/main.ec448294.js.map"
+    "main.css": "/point_of_sale/static/css/main.b59185b1.css",
+    "main.js": "/point_of_sale/static/js/main.f0330515.js",
+    "static/media/logo.png": "/point_of_sale/static/media/logo.ba721a794b2121de4f2d.png",
+    "static/media/shopping-cart.png": "/point_of_sale/static/media/shopping-cart.84f0cabc82e607c299b3.png",
+    "static/media/info.png": "/point_of_sale/static/media/info.48916f8f0c4a1111b52f.png",
+    "static/media/profile.jpg": "/point_of_sale/static/media/profile.7acfeda75ed37a02b1f6.jpg",
+    "static/media/delete.png": "/point_of_sale/static/media/delete.8bc79496f3a55698a136.png",
+    "index.html": "/point_of_sale/index.html",
+    "main.b59185b1.css.map": "/point_of_sale/static/css/main.b59185b1.css.map",
+    "main.f0330515.js.map": "/point_of_sale/static/js/main.f0330515.js.map"
   },
   "entrypoints": [
     "static/css/main.b59185b1.css",
-    "static/js/main.ec448294.js"
+    "static/js/main.f0330515.js"
   ]
 }
